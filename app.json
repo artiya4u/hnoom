@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "hnoom",
+    "slug": "hnoom",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*",
+      "./assets/*"
+    ],
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B2740"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#0B2740",
+      "translucent": false
+    },
+    "extra": {
+      "firebase": {
+        "apiKey": "AIzaSyBnvLpi4mRmkrMO0hY9hceVtDUHQURACTY",
+        "authDomain": "hnoom-32e48.firebaseapp.com",
+        "databaseURL": "https://hnoom-32e48.firebaseio.com",
+        "projectId": "hnoom-32e48",
+        "storageBucket": "hnoom-32e48.appspot.com",
+        "messagingSenderId": "168623525929",
+        "appId": "1:168623525929:android:9fb34ba8dae30bc1ca0c38",
+        "measurementId": "G-9VP01NDSXJ"
+      }
+    }
+  }
+}

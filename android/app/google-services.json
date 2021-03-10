@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "168623525929",
+    "project_id": "hnoom-32e48",
+    "storage_bucket": "hnoom-32e48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168623525929:android:9fb34ba8dae30bc1ca0c38",
+        "android_client_info": {
+          "package_name": "com.bootlegsoft.hnoom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168623525929-s3jqive5pv91abuicncd992gl6jc7fue.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bootlegsoft.hnoom",
+            "certificate_hash": "c8fe8172d756d80d4d2334369a6dd0370c402a32"
+          }
+        },
+        {
+          "client_id": "168623525929-lhh07fus4g3d25qs7j1pcluluddsdvdm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnvLpi4mRmkrMO0hY9hceVtDUHQURACTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168623525929-lhh07fus4g3d25qs7j1pcluluddsdvdm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

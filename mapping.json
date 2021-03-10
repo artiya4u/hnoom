@@ -1,0 +1,79 @@
+{
+  "strict": {
+    "text-font-family": "Gilroy-Light",
+    "text-subtitle-1-font-size": 28,
+    "text-subtitle-1-font-weight": "100",
+    "text-subtitle-1-font-family": "Gilroy-Light"
+  },
+  "components": {
+    "StatusBar": {
+      "meta": {
+        "scope": "mobile",
+        "parameters": {
+          "barStyle": {
+            "type": "string"
+          },
+          "backgroundColor": {
+            "type": "string"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {},
+        "states": {}
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "barStyle": "light-content",
+            "backgroundColor": "color-primary-700"
+          }
+        }
+      }
+    },
+    "SafeAreaLayout": {
+      "meta": {
+        "scope": "mobile",
+        "parameters": {
+          "backgroundColor": {
+            "type": "string"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {
+          "insets": {
+            "top": {
+              "default": false
+            },
+            "bottom": {
+              "default": false
+            }
+          }
+        },
+        "states": {}
+      },
+      "appearances": {
+        "default": {
+          "mapping": {},
+          "variantGroups": {
+            "position": {
+              "top": {
+                "backgroundColor": "color-primary-700"
+              },
+              "bottom": {
+                "backgroundColor": "background-basic-color-1"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
